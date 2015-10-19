@@ -1,0 +1,13 @@
+{
+  "name": "maxel-client",
+  "description": "remote client for the maxel webservice",
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "jquery-ui": "jqueryui#~1.11.4",
+    "jquery.splitter": "~0.16.0",
+    "angular": "angularjs#~1.4.7",
+    "angular-route": "~1.4.7",
+    "font-awesome": "fontawesome#~4.4.0",
+    "bootstrap": "~3.3.5"
+  }
+}
