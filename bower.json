@@ -8,6 +8,7 @@
     "angular": "angularjs#~1.4.7",
     "angular-route": "~1.4.7",
     "font-awesome": "fontawesome#~4.4.0",
-    "bootstrap": "~3.3.5"
+    "bootstrap": "~3.3.5",
+    "Ventus": "ventus#*"
   }
 }

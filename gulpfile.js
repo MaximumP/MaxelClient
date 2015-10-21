@@ -43,12 +43,14 @@ var vendorScripts = [
     cfg.bowerDir + 'angular-route/angular-route.min.js',
     cfg.bowerDir + 'jquery/dist/jquery.min.js',
     cfg.bowerDir + 'jquery.splitter/js/jquery.splitter-0.16.0.js',
-    cfg.bowerDir + 'jquery-ui/jquery-ui.js'
+    cfg.bowerDir + 'jquery-ui/jquery-ui.js',
+    cfg.bowerDir + 'Ventus/ventus.min.js'
 ];
 
 var vendorCss = [
     cfg.bowerDir + 'bootstrap/dist/css/bootstrap.min.css',
-    cfg.bowerDir + 'bootstrap/dist/css/bootstrap-theme.min.css'
+    cfg.bowerDir + 'bootstrap/dist/css/bootstrap-theme.min.css',
+    cfg.bowerDir + 'Ventus/ventus.css'
 ];
 
 gulp.task('bower', function(){
