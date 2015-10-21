@@ -4,7 +4,11 @@
 
 angular.module('Maxel').config(['$routeProvider',
     function($routeProvider){
-        $routeProvider.when('/login', {
-            templateUrl: '/templates/login/index.html'
-        });
+        $routeProvider
+            .when('/login', {
+                templateUrl: '/templates/login/loginForm.html'
+            })
+            .when('/welcome', {
+                templateUrl: '/templates/welcome/index.html'
+            });
     }]);

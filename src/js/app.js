@@ -1,5 +1,6 @@
 /**
  * Created by max on 17.10.15.
  */
-
-angular.module('Maxel', ['ngRoute']);
+(function(){
+    angular.module('Maxel', ['ngRoute', 'Login', 'FileManager']);
+})();
